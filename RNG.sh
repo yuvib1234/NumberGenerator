@@ -1,6 +1,3 @@
-echo "Welcome to the Random Number Generator!"
-echo "Type a minimum and a maximum number for the generator to pick in between"
-
 if [ "$#" -ne 2 ]; then
     echo "Usage: $0 min max"
     exit 1
